@@ -1,0 +1,533 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+video
+{
+	width: 1000px;
+	height: 400px;
+	background-color: #FF0000;
+}
+
+.picLogo
+{
+	width: 50px;
+	height: 50px;
+	background-color: #000000;
+}
+.headIndex
+{
+	background-color: #A9A9A9;
+}
+.payoffIndex
+{
+	background-color: #D3D3D3;
+}
+.navbarIndex
+{
+	background-color: #ADD8E6;
+	
+}
+.mobileNav
+{
+	
+}
+.flex-container
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.flex-containerNav
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.flex-containerFooter
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.articleNewZeeland
+{
+	order: 1;
+	width: 1000px;
+	background-color: #90ee90;
+	
+}
+.articleBora
+{
+	order: 3;
+	width: 1000px;
+	background-color: #00FF00;
+	
+	
+}
+.articleMaui
+{
+	order: 4;
+	width: 1000px;
+	background-color: #006400;
+	
+}
+#picZeeland
+{
+	width: 400px;
+	height: 400px;
+	float: right;
+}
+#picBora
+{
+	width: 400px;
+	height: 400px;
+	float: right;
+	clear: both;
+}
+#picMaui
+{
+	width: 400px;
+	height: 400px;
+	float: right;
+	clear: both;
+}
+.top5places
+{
+	order: 2;
+	width: 450px;
+	background-color: #964B00;
+	
+	
+}
+.footerIndex
+{
+	width: 1000px;
+	background-color: #808080;
+}
+.cookieIndex
+{
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 0,5;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 1250px;
+}
+
+/* Opmaak destinations*/
+.picLogoDestinations
+{
+	grid-area: logodTag;
+	width: 50px;
+	height: 50px;
+	background-color: #A020F0;
+}
+.destinationsTitle
+{
+	grid-area: titledTag;
+	background-color: red;
+}
+.payoffDestinations
+{
+	grid-area: payoffdTag;
+	background-color: blue;
+}
+.navbarTickets
+{
+	background-color: #ADD8E6;
+}
+.articleMontenegro
+{
+	grid-area: monteTag;
+	width: 200px;
+	background-color: brown;
+}
+.articleMatera
+{
+	grid-area: materaTag;
+	width: 200px;
+	background-color: green;
+}
+
+
+.articleIjsland
+{
+	grid-area: ijslandTag;
+	width: 200px;
+	background-color: blue;
+}
+
+.articleDubai
+{
+	grid-area: dubaiTag;
+	width: 200px;
+	background-color: purple;
+}
+
+.articleTalinn
+{
+	grid-area: talinnTag;
+	width: 200px;
+	background-color: blue;;
+}
+
+.articleBrac
+{
+	grid-area: bracTag;
+	width: 200px;
+	background-color: orange;
+}
+
+
+.asideDestinations
+{
+	display: inline;
+}
+.bracAside
+{
+	grid-area: bracasideTag;
+}
+.dubaiAside
+{
+	grid-area: dubaiasideTag;
+}
+.talinnAside
+{
+	grid-area: talinnAsideTag;
+}
+#picDestinations
+{
+	width: 100px;
+	height: 100px;
+}
+.footerDestinations
+{
+	grid-area: footerdTag;
+	background-color: grey;
+	
+}
+
+.cookieDestinations
+{
+	grid-area: cookiedTag;
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 0,5;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 1250px;
+}
+.grid-containerDestinations
+{
+	background-color: #FFFF;
+	
+	display: grid;
+	grid-gap: 10px;
+	
+	grid-template-columns: auto auto auto;
+	grid-template-areas:
+ 
+	'logodTag			logodTag		logodTag		'
+	'titledTag			titledTag 		titledTag 		'
+	'payoffdTag			payoffdTag 		payoffdTag 		'
+	'navbarTag 			navbarTag		navbarTag		'
+	'materaTag  		materaTag		materaTag		'
+	'materaTag			materaTag		materaTag		'
+	'ijslandTag			ijslandTag		ijslandTag		'
+	'monteTag			monteTag		monteTag		'
+	'talinnTag			talinnTag		talinnTag		'
+	'dubaiTag			dubaiTag		dubaiTag		'
+	'bracTag			bracTag			bracTag			'
+	'bracasideTag		dubaiasideTag	talinnAsideTag	'
+	'footerDTag			footerDTag		cookieDTag		';
+}
+/* einde*/
+
+
+
+
+/* opmaak tickets*/
+
+
+#picTickets
+{
+	width: 400px;
+	height: 400px;
+}
+col:first-child
+{
+	background: #FF0;
+}
+
+
+col:nth-child(2n+0)
+{
+	background: #CCC;
+}
+
+.picLogoTickets
+{
+	width: 50px;
+	height: 50px;
+	
+	background-color: #A020F0;
+}
+.titleTickets
+{
+	
+	background-color: #FF0000;
+}
+.payoffTickets
+{
+	
+	background-color: #0000FF;
+}
+
+.navbarTickets
+{
+	grid-area: navbarTag;
+}
+#navbarTicketsUnList
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navbarTicketsList
+{
+	display: inline;
+}
+
+.tabletickets
+{
+	order: 1;
+	
+}
+.3Places
+{
+	order: 2;
+	
+}
+.footerTickets
+{
+	order: 4;
+	background-color: #FFF00;
+	width: 1000px;
+}
+.cookieTickets
+{
+	
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 0,5;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 1250px;
+	
+}
+.footerTable
+{
+	order: 3;
+	background-color: #FFA500;
+	width: 1000px;
+}
+.flex-containerHead
+{
+	display: flex;
+	flex-direction: column;
+}
+.flex-containerTable
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.flex-containerFooter
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	background-color: light-grey;
+	
+}
+/* opmaak contact*/
+.titleContact
+{
+	background-color: blue;
+}
+.payoffContact
+{
+	background-color: red;
+}
+.footerContact
+{
+	background-color: grey;
+	width: 1000px;
+}
+.cookieContact
+{
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 0,5;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 1250px;
+}
+
+#picContact
+{
+	width: 400px;
+	height: 400px;
+}
+.3PlacesContact
+{
+	order: 2;
+	background-color: blue;
+}
+.contactForm
+{
+	order: 1;
+	background-color: white;
+	
+}
+fieldset 
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#fname
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}#lname
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#email
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#inputText
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#submit
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#submit:hover
+{
+	background-color: blue;
+}
+.flex-containerContact
+{
+	display: flex;
+	flex-direction: column;
+}
+.flex-containerForm
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.flex-containerFooterForm
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/* alle opmaak van hamburger menu*/
+.hamburger {
+  
+  /* Hamburger icoon maken*/
+  z-index: 99999;
+  background: white;
+  border: none;
+  cursor: pointer;
+  top: 1rem;
+  left: 1rem;
+  display: show;
+}
+
+.menu {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  /* opmaak*/
+  list-style: none;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-100%);
+  
+}
+
+.close {
+  position: absolute;
+  border: none;
+  color: black;
+  cursor: pointer;
+  top: 1rem;
+  right: 1rem;
+}
+
+.menu:target {
+  /* Dit laat het menu zien */
+  transform: translateY(0);
+}
+
+
+
+
+@media only screen and (max-width: 480px)
+{
+
+}
+
+@media only screen and (mix-wdith: 481px max-width: 1179px)
+{
+
+}
