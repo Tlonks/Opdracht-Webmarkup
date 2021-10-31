@@ -1,0 +1,1756 @@
+@media only screen and (min-width: 1179px)
+{
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+section > p
+{
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+
+/*opmaak index*/
+video
+{
+	width: 100%;
+	height: 400px;
+	background-color: #FF0000;
+}
+
+.picLogo
+{
+	width: 50px;
+	height: 50px;
+	background-color: #000000;
+}
+.headIndex
+{
+	background-color: #A9A9A9;
+}
+.payoffIndex
+{
+	background-color: #D3D3D3;
+}
+.navbarIndex
+{
+	background-color: #ADD8E6;
+	
+}
+.mobileNav
+{
+	display: none;
+}
+.flex-container
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.flex-containerNav
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.flex-containerFooter
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+figure + #testselector
+{
+	background-color: #90ee90;
+}
+.articleNewZeeland
+{
+	order: 1;
+	width: 1000px;
+	font-size: 1.2em;
+	background-color: #ADD8E6;
+}
+#linkTui:hover
+{
+	
+	background-color: #FF00FF;
+}
+#linkBora:link
+{
+	color: #FF0000;
+}
+#linkBora:active
+{
+	color: #FF00FF;
+}
+.articleBora
+{
+	order: 3;
+	width: 1000px;
+	background-color: #00FF00;
+	font-family: Notable;
+	
+}
+.articleMaui
+{
+	order: 4;
+	width: 1000px;
+	background-color: #006400;
+	font-size: 1.2em;
+}
+#picZeeland
+{
+	width: 400px;
+	height: 400px;
+	float: right;
+}
+#picBora
+{
+	width: 400px;
+	height: 400px;
+	float: right;
+	clear: both;
+}
+#picMaui
+{
+	width: 400px;
+	height: 400px;
+	float: right;
+	clear: both;
+}
+.top5places
+{
+	order: 2;
+	width: 450px;
+	background-color: #964B00;
+	display: flex;
+	flex-direction: column;		
+	align-items: center;
+	
+	
+}
+
+.top5places h2
+{
+	
+	margin-bottom: 100px;
+}
+.listPlaces li
+{
+	font-size: 1.2rem;
+	font-weight: bold;
+	
+}
+.footerIndex
+{
+	width: 1000px;
+	background-color: #808080;
+}
+.cookieIndex
+{
+	z-index: 9999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 1250px;
+	border-style: double;
+	border-width: 10px;
+	border-color: green;
+}
+
+/* Opmaak destinations*/
+.picLogoDestinations
+{
+	grid-area: logoTag;
+	width: 50px;
+	height: 50px;
+	background-color: #A020F0;
+}
+.destinationsTitle
+{
+	grid-area: titleTag;
+	background-color: red;
+}
+.payoffDestinations
+{
+	grid-area: payoffTag;
+	background-color: blue;
+}
+.navbarTickets
+{
+	background-color: #ADD8E6;
+}
+.articleMontenegro
+{
+	grid-area: monteTag;
+	width: 200px;
+	letter-spacing: 5px;
+	background-color: brown;
+	
+}
+
+.articleMatera
+{
+	grid-area: materaTag;
+	width: 200px;
+	background-color: green;
+	line-height: 30px;
+}
+
+
+.articleIjsland
+{
+	grid-area: ijslandTag;
+	width: 200px;
+	background-color: blue;
+	text-indent: 20px;
+}
+
+.articleDubai
+{
+	grid-area: AdubaiTag;
+	width: 200px;
+	background-color: purple;
+	word-spacing: 10px;
+}
+
+.articleTalinn
+{
+	grid-area: AtalinnTag;
+	width: 200px;
+	background-color: blue;
+	text-transform: uppercase;
+}
+
+.articleBrac
+{
+	grid-area: AbracTag;
+	width: 200px;
+	background-color: #ffc72b;
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+
+#picBrac, 
+#picDubai, 
+#picTalinn
+{
+	width: 200px;
+	height: 200px;
+	
+}
+
+.asideDestinations
+{
+	grid-area: bracTag;
+}
+.asideDestinations2
+{
+	grid-area: dubaiTag;
+}
+.asideDestinations3
+{
+	grid-area: talinnTag;
+}
+.footerDestinations
+{
+	grid-area: footerTag;
+	background-color: grey;
+	
+}
+
+.cookieDestinations
+{
+	grid-area: cookieTag;
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 1250px;
+}
+.grid-container
+{
+	background-color: #FFFF;
+	display: grid;
+	grid-template-areas:
+	
+	'materaTag	.			.			'
+	
+	'.			.			ijslandTag	'
+	'.			monteTag	.			'
+	'AtalinnTag	.			.			'
+	'.			.			AdubaiTag	'
+	'.			AbracTag	.			'
+	'bracTag	dubaiTag	talinnTag	'
+	'footerTag	footerTag	cookieTag	';
+	
+}
+
+
+/* opmaak tickets*/
+
+
+.picTickets
+{
+	width: 400px;
+	height: 400px;
+	
+}
+col:first-child
+{
+	background: #FF0;
+}
+
+
+col:nth-child(2n+0)
+{
+	background: #FFF;
+}
+col:nth-child(2n+0)
+{
+	background: #CFF;
+}
+.picLogoTickets
+{
+	width: 50px;
+	height: 50px;
+	background-color: #A020F0;
+	grid-area: logo;
+}
+.titleTickets
+{
+	grid-area: title;
+	background-color: #FF0000;
+	
+}
+.payoffTickets
+{
+	grid-area: payoff;
+	background-color: #0000FF;
+}
+
+.navbarTickets
+{
+	grid-area: navtickets;
+	
+}
+#navbarTicketsUnList
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navbarTicketsList
+{
+	display: inline;
+}
+
+.tableTickets, td, th
+{
+	border: 1px solid black;
+	
+}
+
+.footerTickets
+{
+	width: 1200px;
+	background-color: grey;
+	
+}
+.cookieTickets
+{
+	
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 1250px;
+	
+	
+}
+.footerTable
+{
+	background-color: #FFA500;
+	height: 50px;
+	width: 1000px;
+	
+	
+}
+#grid-containerHeader
+{
+	display: grid;
+	grid-template-areas:
+	
+	'logo'
+	'title'
+	'payoff'
+	'navtickets';
+}
+.flex-containerForm
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+}
+.flex-containerFooter
+{
+	display: flex;
+}
+.flex-containertext
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 700px;
+}
+.flex-containertickets
+{
+	display: flex;
+	flex-direction: row;
+	
+}
+/* opmaak contact*/
+.titleContact
+{
+	background-color: blue;
+	grid-area: titleCtag;
+	
+}
+.payoffContact
+{
+	width: 10000px;
+	background-color: red;
+	grid-area: payoffCtag;
+}
+.footerContact
+{
+	background-color: grey;
+	width: 1000px;
+	grid-area: contactFooter;
+}
+.cookieContact
+{
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 1250px;
+	grid-area: cookieTag;
+}
+.picLogo
+{
+	grid-area: logoContact;
+}
+.picContact
+{
+	width: 400px;
+	height: 400px;
+	
+}
+.PlacesContact
+{
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+	
+}
+
+.contactForm
+{
+	
+	background-color: grey;
+	width: 800px;
+	
+}
+fieldset 
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#fname
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}#lname
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#email
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#inputText
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#submit
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#submit:hover
+{
+	background-color: blue;
+}
+.flex-containerHeader
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-containerContact
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+}
+.flex-containerFooter
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+#flex-containerForm
+{
+	display: flex;
+	flex-direction: row;
+	flex-grow: 100;
+}
+p:first-letter
+{
+	font-size: 150%;
+	color: #8A2BE2;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 1179px)
+{
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*opmaak index*/
+p
+{
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+.video
+{
+	width: 1000px;
+	height: 400px;
+	background-color: #FF0000;
+	order: 2;
+}
+
+.picLogo
+{
+	width: 50px;
+	height: 50px;
+	background-color: #000000;
+}
+.headIndex
+{
+	background-color: #A9A9A9;
+}
+.payoffIndex
+{
+	background-color: #D3D3D3;
+}
+.navbarIndex
+{
+	background-color: #ADD8E6;
+	
+}
+.mobileNav
+{
+	display: none;
+}
+.flex-container
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.flex-containerNav
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.flex-containerFooter
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.articleNewZeeland
+{
+	order: 5;
+	width: 1000px;
+	background-color: #90ee90;
+	
+}
+.articleBora
+{
+	order: 4;
+	width: 1000px;
+	background-color: #00FF00;
+	
+	
+}
+.articleMaui
+{
+	order: 3;
+	width: 1000px;
+	background-color: #006400;
+	
+}
+#picZeeland
+{
+	width: 400px;
+	height: 400px;
+	float: left;
+}
+#picBora
+{
+	width: 400px;
+	height: 400px;
+	float: left;
+	clear: both;
+}
+#picMaui
+{
+	width: 400px;
+	height: 400px;
+	float: left;
+	clear: both;
+}
+.top5places
+{
+	order: 1;
+	width: 450px;
+	background-color: #964B00;
+	display: flex;
+	flex-direction: column;		
+	align-items: center;
+	
+	
+}
+
+.top5places h2{
+	
+	margin-bottom: 100px;
+}
+.listPlaces li
+{
+	font-size: 1.2rem;
+	font-weight: bold;
+	
+}
+.footerIndex
+{
+	width: 1000px;
+	background-color: #808080;
+}
+.cookieIndex
+{
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 800px;
+}
+
+#navbarTicketsUnList
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navbarTicketsList
+{
+	display: inline;
+}
+/* Opmaak destinations*/
+.picLogoDestinations
+{
+	grid-area: logoTag;
+	width: 50px;
+	height: 50px;
+	background-color: #A020F0;
+}
+.destinationsTitle
+{
+	grid-area: titleTag;
+	background-color: red;
+}
+.payoffDestinations
+{
+	grid-area: payoffTag;
+	background-color: blue;
+}
+.navbarTickets
+{
+	background-color: #ADD8E6;
+}
+.articleMontenegro
+{
+	grid-area: monteTag;
+	width: 200px;
+	background-color: brown;
+}
+.articleMatera
+{
+	grid-area: materaTag;
+	width: 200px;
+	background-color: green;
+}
+
+
+.articleIjsland
+{
+	grid-area: ijslandTag;
+	width: 200px;
+	background-color: blue;
+}
+
+.articleDubai
+{
+	grid-area: AdubaiTag;
+	width: 200px;
+	background-color: purple;
+	display: none;
+}
+
+.articleTalinn
+{
+	grid-area: AtalinnTag;
+	width: 200px;
+	background-color: blue;
+}
+
+.articleBrac
+{
+	grid-area: AbracTag;
+	width: 200px;
+	background-color: orange;
+}
+#picBrac
+{
+	width: 200px;
+	height: 200px;
+	
+}
+#picDubai
+{
+	width: 200px;
+	height: 200px;
+	
+}
+#picTalinn
+{
+	width: 200px;
+	height: 200px;
+	
+}
+.asideDestinations
+{
+	grid-area: bracTag;
+}
+.asideDestinations2
+{
+	grid-area: dubaiTag;
+}
+.asideDestinations3
+{
+	grid-area: talinnTag;
+	display: none;
+}
+.footerDestinations
+{
+	grid-area: footerTag;
+	background-color: grey;
+	
+}
+
+.cookieDestinations
+{
+	grid-area: cookieTag;
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 800px;
+}
+.grid-container
+{
+	background-color: #FFFF;
+	display: grid;
+	grid-template-areas:
+	
+	'monteTag	.			'
+	'.			.			'
+	'.			materaTag	'
+	'ijslandTag	.			'
+	'.			AtalinnTag	'
+	'.			.			'
+	'AbracTag	.			'
+	'.			.			'
+	'bracTag	dubaiTag	'
+	'footerTag	cookieTag	';	
+}
+
+/* opmaak tickets*/
+
+.picTickets
+{
+	width: 400px;
+	height: 400px;
+	
+	
+}
+col:first-child
+{
+	background: #FF0;
+}
+
+
+col:nth-child(2n+0)
+{
+	background: #CCC;
+}
+
+.picLogoTickets
+{
+	width: 50px;
+	height: 50px;
+	background-color: #A020F0;
+	grid-area: logo;
+}
+.titleTickets
+{
+	grid-area: title;
+	background-color: #FF0000;
+}
+.payoffTickets
+{
+	grid-area: payoff;
+	background-color: #0000FF;
+}
+
+.navbarTickets
+{
+	grid-area: navtickets;
+	
+}
+#navbarTicketsUnList
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navbarTicketsList
+{
+	display: inline;
+}
+
+.tableTickets, td, th
+{
+	border: 1px solid black;
+	
+}
+
+.footerTickets
+{
+	width: 1200px;
+	background-color: grey;
+	
+}
+.cookieTickets
+{
+	
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 800px;
+	
+	
+}
+.footerTable
+{
+	background-color: #FFA500;
+	height: 50px;
+	width: 750px;
+	
+	
+}
+#grid-containerHeader
+{
+	display: grid;
+	grid-template-areas:
+	
+	'logo'
+	'title'
+	'payoff'
+	'navtickets';
+}
+
+.flex-containerFooter
+{
+	display: flex;
+}
+.flex-containertext
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	gap: 400px;
+}
+.flex-container3Places
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.ticketPlace1
+{
+
+	display: none;
+}
+.ticketPlace2
+{
+	flex-grow: 100;
+}
+.ticketPlace3
+{
+	
+}
+.headaside
+{
+	width: 1000px;
+}
+/* opmaak contact*/
+.titleContact
+{
+	background-color: blue;
+	grid-area: titleCtag;
+}
+.payoffContact
+{
+	width: 10000px;
+	background-color: red;
+	grid-area: payoffCtag;
+}
+.footerContact
+{
+	background-color: grey;
+	width: 1000px;
+	grid-area: contactFooter;
+}
+.cookieContact
+{
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 800px;
+	grid-area: cookieTag;
+}
+.picLogo
+{
+	grid-area: logoContact;
+}
+.picContact
+{
+	width: 400px;
+	height: 400px;
+	
+}
+.PlacesContact
+{
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+	
+}
+
+.contactForm
+{
+	
+	background-color: grey;
+	margin: 15px;
+	
+}
+fieldset 
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#fname
+{
+	margin:0;
+	padding:0;
+	border: solid;
+}#lname
+{
+	margin:0;
+	padding:0;
+	border: solid;
+}
+#email
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#inputText
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#submit
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#submit:hover
+{
+	background-color: blue;
+}
+.flex-containerHeader
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-containerContact
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	
+}
+.flex-containerFooter
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+
+
+}
+@media screen and (max-width: 480px)
+{
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*opmaak index*/
+p
+{
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+.video
+{
+	width: 1000px;
+	height: 400px;
+	background-color: #FF0000;
+	display: none;
+}
+
+.picLogo
+{
+	width: 50px;
+	height: 50px;
+	background-color: #000000;
+	display: none;
+}
+.headIndex
+{
+	background-color: #A9A9A9;
+	width: 200px;
+	
+}
+.payoffIndex
+{
+	background-color: #D3D3D3;
+	width: 200px;
+	
+}
+.navbarIndex
+{
+	background-color: #ADD8E6;
+	width: 200px;
+	
+}
+.mobileNav
+{
+	
+	grid-area: mobileTag;
+	width: 200px;
+}
+.flex-containerIndex
+{
+	display: flex;
+	flex-direction: column;
+}
+.flex-containerNavIndex
+{
+	display: flex;
+	flex-direction: column;
+}
+.flex-container
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.flex-containerNav
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.flex-containerFooter
+{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.articleNewZeeland
+{
+	order: 4;
+	width: 1000px;
+	background-color: #90ee90;
+	
+}
+.articleBora
+{
+	order: 3;
+	width: 1000px;
+	background-color: #00FF00;
+	
+	
+}
+.articleMaui
+{
+	order: 2;
+	width: 1000px;
+	background-color: #006400;
+	
+}
+#picZeeland
+{
+	width: 400px;
+	height: 400px;
+	float: left;
+	
+}
+#picBora
+{
+	width: 400px;
+	height: 400px;
+	float: left;
+	clear: both;
+}
+#picMaui
+{
+	width: 400px;
+	height: 400px;
+	float: left;
+	clear: both;
+}
+.top5places
+{
+	order: 1;
+	width: 450px;
+	background-color: #964B00;
+	display: flex;
+	flex-direction: column;		
+	align-items: center;
+	
+	
+}
+
+.top5places h2{
+	
+	margin-bottom: 100px;
+}
+.listPlaces li
+{
+	font-size: 1.2rem;
+	font-weight: bold;
+	
+}
+.footerIndex
+{
+	width: 1000px;
+	background-color: #808080;
+}
+.cookieIndex
+{
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 200px;
+}
+#navbarTicketsUnList
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navbarTicketsList
+{
+	display: inline;
+}
+/* alle opmaak van hamburger menu*/
+.hamburger 
+{
+  
+  /* Hamburger icoon maken*/
+  z-index: 99999;
+  background: white;
+  border: none;
+  cursor: pointer;
+  top: 1rem;
+  left: 1rem;
+  
+}
+
+.menu 
+{
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  /* opmaak*/
+  list-style: none;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  transform: translateY(-100%);
+  
+}
+
+.close 
+{
+  position: absolute;
+  border: none;
+  color: black;
+  cursor: pointer;
+  top: 1rem;
+  right: 1rem;
+ 
+}
+.hamPic
+{
+	
+	width: 25px;
+	height: 25px;
+}
+.crossPic
+{
+	width: 25px;
+	height: 25px;
+}
+.menu:target 
+{
+  /* Dit laat het menu zien */
+  transform: translateY(0);
+}
+/* Opmaak destinations*/
+.picLogoDestinations
+{
+	grid-area: logoTag;
+	width: 50px;
+	height: 50px;
+	background-color: #A020F0;
+	display: none;
+}
+.destinationsTitle
+{
+	grid-area: titleTag;
+	background-color: red;
+}
+.payoffDestinations
+{
+	grid-area: payoffTag;
+	background-color: blue;
+}
+.navbarTickets
+{
+	background-color: #ADD8E6;
+	
+}
+
+.articleMontenegro
+{
+	grid-area: monteTag;
+	width: 200px;
+	background-color: brown;
+	float: right;
+}
+.articleMatera
+{
+	grid-area: materaTag;
+	width: 200px;
+	background-color: green;
+	float: right;
+}
+.articleIjsland
+{
+	grid-area: ijslandTag;
+	width: 200px;
+	background-color: blue;
+	float: right;
+}
+
+.articleDubai
+{
+	grid-area: AdubaiTag;
+	width: 200px;
+	background-color: purple;
+	display: none;
+}
+
+.articleTalinn
+{
+	grid-area: AtalinnTag;
+	width: 200px;
+	background-color: blue;
+	float: right;
+}
+
+.articleBrac
+{
+	grid-area: AbracTag;
+	width: 200px;
+	background-color: orange;
+	display: none;
+}
+#picBrac
+{
+	width: 200px;
+	height: 200px;
+	
+}
+#picDubai
+{
+	width: 200px;
+	height: 200px;
+	
+}
+#picTalinn
+{
+	width: 200px;
+	height: 200px;
+	
+}
+.asideDestinations
+{
+	grid-area: bracTag;
+}
+.asideDestinations2
+{
+	grid-area: dubaiTag;
+}
+.asideDestinations3
+{
+	grid-area: talinnTag;
+	
+}
+.footerDestinations
+{
+	grid-area: footerTag;
+	background-color: grey;
+	
+}
+
+.cookieDestinations
+{
+	grid-area: cookieTag;
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 200px;
+}
+.grid-containerMobile
+{
+	background-color: #FFFF;
+	display: grid;
+	grid-template-areas:
+	
+	'titleTag	navtickets	'
+	'payoffTag	mobileNavTag'
+	'.			.			'
+	'.			.			'
+	'AtalinnTag	.			'
+	'.			.			'
+	'.			.			'
+	'ijslandTag	.			'
+	'.			.			'
+	'.			.			'
+	'materaTag	.			'
+	'.			.			'
+	'.			.			'
+	'monteTag	.			'
+	'bracTag	.			'
+	'dubaiTag	.			'
+	'talinnTag	.			'
+	'footerTag	cookieTag	';
+	
+}
+/* opmaak tickets*/
+
+
+.picTickets
+{
+	width: 400px;
+	height: 400px;
+	
+}
+col:first-child
+{
+	background: #FF0;
+}
+
+
+col:nth-child(2n+0)
+{
+	background: #CCC;
+}
+
+.picLogoTickets
+{
+	width: 50px;
+	height: 50px;
+	background-color: #A020F0;
+	grid-area: logo;
+	display: none;
+}
+.titleTickets
+{
+	grid-area: title;
+	background-color: #FF0000;
+}
+.payoffTickets
+{
+	grid-area: payoff;
+	background-color: #0000FF;
+}
+
+.navbarTickets
+{
+	grid-area: navtickets;
+	
+}
+#navbarTicketsUnList
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.navbarTicketsList
+{
+	
+	display: inline;
+}
+.mobileNav
+{
+	
+	grid-area: mobileNavTag;
+}
+.tableTickets, td, th, tr
+{
+	border: 1px solid black;
+}
+.tableTickets
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.footerTickets
+{
+	width: 1200px;
+	background-color: grey;
+	
+}
+.cookieTickets
+{
+	
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 200px;
+	
+	
+}
+.footerTable
+{
+	background-color: #FFA500;
+	height: 50px;
+	
+	
+	
+}
+#grid-containerHeader
+{
+	display: grid;
+	grid-template-areas:
+	
+	'title		navtickets	'
+	'payoff		mobileNavTag';
+	
+}
+.flex-containerForm
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.flex-containerFooter
+{
+	display: flex;
+}
+
+
+/* opmaak contact*/
+.titleContact
+{
+	background-color: blue;
+	width: 200px;
+}
+.payoffContact
+{
+	background-color: red;
+	width: 200px;
+}
+.navbarTickets
+{
+	width: 200px;
+	height: 75px;
+}
+.mobileNav
+{
+	width: 200px;
+}
+.footerContact
+{
+	background-color: grey;
+	width: 1000px;
+	
+}
+.cookieContact
+{
+	z-index: 99999;
+	width: 200px;
+	color: #FFF;
+	background-color: #FA0;
+	opacity: 50%;
+	border: 20px;
+	padding: 20px;
+	margin: 20px;
+	position: fixed;
+	bottom: 0px;
+	left: 200px;
+	
+}
+.picLogo
+{
+	display: none;
+}
+.picContact
+{
+	width: 400px;
+	height: 400px;
+	
+}
+.PlacesContact
+{
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+	
+}
+
+.contactForm
+{
+	width: 400px;
+	background-color: grey;
+	margin: 10px;
+	
+}
+fieldset 
+{
+	margin:0;
+	padding:0;
+	border:solid;
+	width: 400px;
+}
+#inputText
+{
+	width: 400px;
+}
+#fname
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}#lname
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#email
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#inputText
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#submit
+{
+	margin:0;
+	padding:0;
+	border:solid;
+}
+#submit:hover
+{
+	background-color: blue;
+}
+.flex-containerHeader
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.flex-containernavcontact
+{
+	display: flex;
+	flex-direction: column;
+}
+.flex-containertext
+{
+	display: flex;
+	flex-direction: column;
+}
+.flex-containerContact
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	
+	
+}
+.flex-containerFooter
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+
+}
